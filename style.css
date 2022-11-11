@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 100%;
+   
+ 
+}
+
+body{display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+#container{ 
+position: relative;
+background-color: black;
+/* padding: 20px; */
+height: 500px;
+width: 400px;
+border-radius: 20px;
+color: rgb(157, 153, 153);
+/* text-transform: capitalize; */
+
+}
+
+h1{
+    padding-top: 20px;
+    color: rgb(157, 153, 153);
+    font-size: 28px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.wrapper{
+    top: 200px;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+h2{
+    padding: 20px 0;
+}
+
